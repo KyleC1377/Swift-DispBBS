@@ -15,9 +15,13 @@
 		27C6352C1ED5696500152256 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 27C6352B1ED5696500152256 /* .gitignore */; };
 		27C6352E1ED5717700152256 /* HotTextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6352D1ED5717700152256 /* HotTextTableViewController.swift */; };
 		27C635301ED572EF00152256 /* HotTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C6352F1ED572EF00152256 /* HotTextCell.swift */; };
+		27C635321ED58BED00152256 /* tempCode in Resources */ = {isa = PBXBuildFile; fileRef = 27C635311ED58BED00152256 /* tempCode */; };
+		27C635341ED67F9500152256 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C635331ED67F9500152256 /* WebViewController.swift */; };
+		7BD7CFC99DDA87508E96B27F /* Pods_kDisp_BBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C3A4F7B2E6B508E055D5A7 /* Pods_kDisp_BBS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BBBDFB65E517222C4AFF43A /* Pods-kDisp BBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kDisp BBS.release.xcconfig"; path = "Pods/Target Support Files/Pods-kDisp BBS/Pods-kDisp BBS.release.xcconfig"; sourceTree = "<group>"; };
 		27C635161ED568DF00152256 /* kDisp BBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kDisp BBS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C635191ED568DF00152256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27C6351B1ED568DF00152256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +32,10 @@
 		27C6352B1ED5696500152256 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		27C6352D1ED5717700152256 /* HotTextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotTextTableViewController.swift; sourceTree = "<group>"; };
 		27C6352F1ED572EF00152256 /* HotTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotTextCell.swift; sourceTree = "<group>"; };
+		27C635311ED58BED00152256 /* tempCode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempCode; sourceTree = "<group>"; };
+		27C635331ED67F9500152256 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E33FE580B4945B8616F582E5 /* Pods-kDisp BBS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kDisp BBS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kDisp BBS/Pods-kDisp BBS.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C3A4F7B2E6B508E055D5A7 /* Pods_kDisp_BBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kDisp_BBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD7CFC99DDA87508E96B27F /* Pods_kDisp_BBS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0189B9989A445C5FF365A611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C3A4F7B2E6B508E055D5A7 /* Pods_kDisp_BBS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27C6350D1ED568DE00152256 = {
 			isa = PBXGroup;
 			children = (
 				27C6352B1ED5696500152256 /* .gitignore */,
 				27C635181ED568DF00152256 /* kDisp BBS */,
 				27C635171ED568DF00152256 /* Products */,
+				C5E8505999CA51F2A7C8B76C /* Pods */,
+				0189B9989A445C5FF365A611 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,13 +83,24 @@
 				27C635191ED568DF00152256 /* AppDelegate.swift */,
 				27C6351B1ED568DF00152256 /* ViewController.swift */,
 				27C6352D1ED5717700152256 /* HotTextTableViewController.swift */,
+				27C635331ED67F9500152256 /* WebViewController.swift */,
 				27C6351D1ED568DF00152256 /* Main.storyboard */,
 				27C6352F1ED572EF00152256 /* HotTextCell.swift */,
 				27C635201ED568DF00152256 /* Assets.xcassets */,
 				27C635221ED568DF00152256 /* LaunchScreen.storyboard */,
 				27C635251ED568DF00152256 /* Info.plist */,
+				27C635311ED58BED00152256 /* tempCode */,
 			);
 			path = "kDisp BBS";
+			sourceTree = "<group>";
+		};
+		C5E8505999CA51F2A7C8B76C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E33FE580B4945B8616F582E5 /* Pods-kDisp BBS.debug.xcconfig */,
+				1BBBDFB65E517222C4AFF43A /* Pods-kDisp BBS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27C635281ED568DF00152256 /* Build configuration list for PBXNativeTarget "kDisp BBS" */;
 			buildPhases = (
+				829FF987B7D24BDF4E0442DD /* [CP] Check Pods Manifest.lock */,
 				27C635121ED568DF00152256 /* Sources */,
 				27C635131ED568DF00152256 /* Frameworks */,
 				27C635141ED568DF00152256 /* Resources */,
+				4AC04B832E06CC4DBCF09A36 /* [CP] Embed Pods Frameworks */,
+				D5164A9364F9E4B9835FC43D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C635321ED58BED00152256 /* tempCode in Resources */,
 				27C6352C1ED5696500152256 /* .gitignore in Resources */,
 				27C635241ED568DF00152256 /* LaunchScreen.storyboard in Resources */,
 				27C635211ED568DF00152256 /* Assets.xcassets in Resources */,
@@ -142,6 +176,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AC04B832E06CC4DBCF09A36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kDisp BBS/Pods-kDisp BBS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		829FF987B7D24BDF4E0442DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5164A9364F9E4B9835FC43D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kDisp BBS/Pods-kDisp BBS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27C635121ED568DF00152256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -150,6 +232,7 @@
 				27C635301ED572EF00152256 /* HotTextCell.swift in Sources */,
 				27C6352E1ED5717700152256 /* HotTextTableViewController.swift in Sources */,
 				27C6351C1ED568DF00152256 /* ViewController.swift in Sources */,
+				27C635341ED67F9500152256 /* WebViewController.swift in Sources */,
 				27C6351A1ED568DF00152256 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +354,7 @@
 		};
 		27C635291ED568DF00152256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33FE580B4945B8616F582E5 /* Pods-kDisp BBS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HMS3LNU987;
@@ -287,6 +371,7 @@
 		};
 		27C6352A1ED568DF00152256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBBDFB65E517222C4AFF43A /* Pods-kDisp BBS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HMS3LNU987;
@@ -320,6 +405,7 @@
 				27C6352A1ED568DF00152256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

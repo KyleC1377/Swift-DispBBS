@@ -1,0 +1,50 @@
+switch response.result{
+
+
+
+
+
+case .success(let data):
+
+
+guard let JSON = response.result.value as? [String: Any] else {
+print("JSON formate error")
+return
+}
+
+
+//                    let json = response.result.value as? [String: Any]
+
+//                    if json["err"] != 0
+//                    {
+//
+//                    }
+
+//                    print(errCode)
+
+//                    if let list = JSON["list"] as?[Any]
+//                    {
+//                        self.hotDataArray = list
+//                        self.tableView.reloadData()
+//                    }
+
+case .failure(let error):
+
+let errorMessage = response.result.error?.localizedDescription
+print(errorMessage!)
+
+}
+
+let BOSS:Int! = 100
+var me:Int
+me = 80
+
+if BOSS > me {
+print("BIG BOSS")
+}
+
+guard let boss = BOSS, boss < me else
+{
+print("我比boss 小")
+return
+}
